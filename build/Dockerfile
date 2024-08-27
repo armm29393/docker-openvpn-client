@@ -5,7 +5,9 @@ RUN apk add --no-cache \
     bind-tools \
     iptables \
     ip6tables \
-    openvpn
+    openvpn \
+    openssh \
+    curl
 
 COPY . /usr/local/bin
 
